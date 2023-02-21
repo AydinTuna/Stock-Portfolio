@@ -1,4 +1,5 @@
 import { ButtonDeleteCurrency } from "../button/ButtonDeleteCurrency";
+import { Progress } from "@chakra-ui/react";
 
 export default function PortfolioItem() {
   return (
@@ -19,7 +20,7 @@ export default function PortfolioItem() {
           <p>$9,965.02</p>
         </div>
         <div className="percentage">
-          <div className="progress-bar"></div>
+          <Progress className="progress-bar" value={70} />
           <p className="progress-percentage">%46.6</p>
         </div>
       </div>
